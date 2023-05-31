@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/shop-project-layerd.iml" filepath="$PROJECT_DIR$/shop-project-layerd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pos-system-shop-layerd.iml" filepath="$PROJECT_DIR$/pos-system-shop-layerd.iml" />
     </modules>
   </component>
 </project>

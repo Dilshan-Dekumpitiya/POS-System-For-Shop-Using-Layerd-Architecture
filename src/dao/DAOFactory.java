@@ -9,11 +9,9 @@ public class DAOFactory {
     public static DAOFactory getDaoFactory() {
         return (daoFactory == null) ? daoFactory = new DAOFactory() : daoFactory;
     }
-    public enum DAOTypes {
-        CUSTOMER,ITEM,ORDER,ORDER_DETAILS,QUERY_DAO
-    }
-    public <T> T getDAO(DAOTypes types){
-        switch (types) {
+
+    public <T> T getDAO(DAOTypes daoType){
+        switch (daoType) {
             case CUSTOMER:
                 return (T) new CustomerDAOImpl();
             /*case ITEM:
